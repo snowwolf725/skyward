@@ -103,20 +103,20 @@ package on Xiaomi's server, reading only the part of the package the partition i
 in, and checks its SHA-256 against the device file:
 
 ```sh
-target/release/skyward-pack stock --config devices/nezha.toml --out target/stock/nezha/recovery.img
+target/release/skyward-pack stock --config devices/waffle.toml --out target/stock/waffle/recovery.img
 ```
 
 Then it builds the image on top of it:
 
 ```sh
 target/release/skyward-pack recovery \
-  --stock target/stock/nezha/recovery.img \
+  --stock target/stock/waffle/recovery.img \
   --binary target/aarch64-linux-android/release/skyward \
-  --config devices/nezha.toml \
+  --config devices/waffle.toml \
   --font resources/fonts/MiSansVF.ttf \
   --mono resources/fonts/KirkMono-Regular.ttf \
   --mono-license resources/fonts/KirkMono-OFL.txt \
-  --out target/skyward-nezha.img
+  --out target/skyward-waffle.img
 ```
 
 Tests and lints run on the computer; what runs only on the phone is linted for it:

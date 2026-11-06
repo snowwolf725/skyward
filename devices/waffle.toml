@@ -76,9 +76,9 @@ server = "https://update.miui.com/updates/miotaV3.php"
 # OS3.0.308.0, whose full update package on the phone maker's own download
 # server holds the recovery partition the recovery is built on top of.
 [stock]
-version = "OS3.0.308.0.WNACNXM"
-package = "https://bkt-sgp-miui-ota-update-alisgp.oss-ap-southeast-1.aliyuncs.com/OS3.0.308.0.WNACNXM/aurora-ota_full-OS3.0.308.0.WNACNXM-user-16.0-9fad950443.zip"
-recovery = "6baa25571871e7b177ed9c936857838aad21b5d9424e1244cd692ab6dae95c0a"
+version = "CPH2583_16.0.3.500(EX01)"
+package = "https://android.googleapis.com/packages/ota-api/package/5dbd9e29f6f38d4e572830c1739c94d7581daa7b.zip"
+recovery = "16a206770d6920d34d8eb5b571fec6ff60757e55629cd387d420695ecf0bc7c0"
 
 # qcom-hv-haptics (qcom,hv-haptics in its dtbo), whose driver says the
 # motor's resonant frequency as the 17 Ultra's does; the click is made from

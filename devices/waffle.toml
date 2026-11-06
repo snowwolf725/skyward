@@ -1,10 +1,10 @@
 [device]
-codename = "aurora"
-brand = "Xiaomi"
-model = "Xiaomi 14 Ultra"
+codename = "waffle"
+brand = "OnePlus"
+model = "OnePlus 12"
 ab = true
 soc = { hans = "第三代骁龙®8移动平台", hant = "Snapdragon® 8 Gen 3 行動平台", en = "Snapdragon® 8 Gen 3 Mobile Platform" }
-os_version_prop = "ro.mi.os.version.incremental"
+os_version_prop = "ro.build.display.id"
 
 [display]
 # The panel's own mode, persist.sys.miui_default_resolution in the odm
@@ -13,8 +13,8 @@ os_version_prop = "ro.mi.os.version.incremental"
 # starts in, 1080 by 2400 at 420, as the 13 Ultra's does; the density is
 # that one's, at the panel's own width, as the 13 Ultra's is.
 width = 1440
-height = 3200
-density = 560
+height = 3168
+density = 480
 
 [modules]
 sources = ["vendor_boot", "vendor_dlkm", "vendor", "system_dlkm"]

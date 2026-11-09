@@ -14,7 +14,7 @@ os_version_prop = "ro.build.display.id"
 # that one's, at the panel's own width, as the 13 Ultra's is.
 width = 1440
 height = 3168
-density = 480
+density = 640
 #diagonal = 6.83
 #corner_radius = 130
 

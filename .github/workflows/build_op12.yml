@@ -11,7 +11,7 @@ on:
         default: recovery.img
 
 permissions:
-  contents: read
+  contents: write
 
 env:
   CARGO_TERM_COLOR: always

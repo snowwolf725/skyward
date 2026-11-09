@@ -57,6 +57,7 @@ jobs:
           target/release/skyward-pack recovery \
             --stock "stock/recovery_stock.img" \
             --binary target/aarch64-linux-android/release/skyward \
+            --system-init target/system-init/aarch64-linux-android/release/system-init \
             --config devices/waffle.toml \
             --font resources/fonts/MiSansVF.ttf \
             --mono resources/fonts/KirkMono-Regular.ttf \

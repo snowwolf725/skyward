@@ -73,3 +73,15 @@ jobs:
           TIMESTAMP=$(date +"%Y%m%d")
           echo "TIMESTAMP=$TIMESTAMP" >> $GITHUB_ENV
 
+      - name: Upload to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            skyward-waffle.zip
+          name: OnePlus12_Skyward
+          tag_name: ${{ env.TIMESTAMP }}-Testimg
+          body: |
+            Device: Oneplus 12
+            Target: OOS14/15/16, COS14/15/16
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

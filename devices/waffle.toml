@@ -108,10 +108,10 @@ server = "https://update.miui.com/updates/miotaV3.php"
 # The stock build the recovery is made on: the Chinese system's
 # OS3.0.308.0, whose full update package on the phone maker's own download
 # server holds the recovery partition the recovery is built on top of.
-[stock]
-version = "CPH2583_16.0.3.500(EX01)"
-package = "https://android.googleapis.com/packages/ota-api/package/5dbd9e29f6f38d4e572830c1739c94d7581daa7b.zip"
-recovery = "16a206770d6920d34d8eb5b571fec6ff60757e55629cd387d420695ecf0bc7c0"
+#[stock]
+#version = "CPH2583_16.0.3.500(EX01)"
+#package = "https://android.googleapis.com/packages/ota-api/package/5dbd9e29f6f38d4e572830c1739c94d7581daa7b.zip"
+#recovery = "16a206770d6920d34d8eb5b571fec6ff60757e55629cd387d420695ecf0bc7c0"
 
 # qcom-hv-haptics (qcom,hv-haptics in its dtbo), whose driver says the
 # motor's resonant frequency as the 17 Ultra's does; the click is made from
